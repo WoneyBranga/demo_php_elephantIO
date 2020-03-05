@@ -27,9 +27,9 @@ function emiteNotificacao(http_server) {
             io.emit('fila2',data);
         });
 
-        socket.on('fila2', function(data){
+        socket.on('fila3', function(data){
             console.log(data);
-            io.emit('fila2',data);
+            io.emit('fila3',data);
         });
 
         socket.on('fila4', function(data){
